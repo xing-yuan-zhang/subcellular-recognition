@@ -2,10 +2,6 @@
 
 Train and maintain a small suite of lab-internal pretrained CNN models for fluorescence microscopy, used to automatically recognize subcellular organelles from image patches. This repository supports routine dataset curation + training + evaluation for organelle-specific binary classifiers, and tests cross-organelle generalization to understand robustness and failure modes.
 
-<p align="center">
-  <img width="450" height="175" alt="Screenshot 2025-12-11 133441" src="https://github.com/user-attachments/assets/b613e979-c109-4c2d-833f-fe0f534d59a6" />
-</p>
-
 ## Description
 - Models: organelle-specific binary CNN classifiers (ResNet18, VGG16, DenseNet121, EfficientNet-B0)
 - Input: 128×128 fluorescence microscopy patches
